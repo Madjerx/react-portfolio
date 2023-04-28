@@ -1,3 +1,11 @@
+.home__section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .home__container {
   row-gap: 7rem;
 }
@@ -152,6 +160,10 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+
+  .home__section {
+    margin-top: -3.5rem;
+  }
   .home__content {
     grid-template-columns: 0.5fr 3fr;
     padding-top: 3.5rem;
@@ -177,10 +189,16 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .home__hand {
+  .home__img {
     width: 150px;
     height: 150px;
   }
+
+  .home__subtitle::before {
+    width: 25px;
+    top: 0.5rem;
+  }
+
   .home__hand {
     width: 22px;
     height: 22px;
