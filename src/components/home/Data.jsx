@@ -58,8 +58,7 @@ const Data = () => {
       <h3 className="home__subtitle">Développeur FullStack</h3>
       <p className="home__description">
         Spécialisé dans la création d'applications et de sites web performants
-        et esthétiques. Explorez mon travail pour en savoir plus sur ce que
-        je peux faire pour vous.
+        et esthétiques.
       </p>
 
       <a href="#contact" className="button button--flex">

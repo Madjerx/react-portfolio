@@ -5,6 +5,7 @@ import Skills from "./components/skills/Skills";
 import Home from "./components/home/Home";
 import Experiences from "./components/experiences/Experiences";
 import Footer from "./components/footer/Footer";
+import ScrollUp from "./components/scrollup/ScrollUp";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Experiences />
       </main>
       <Footer />
+      <ScrollUp />
     </>
   );
 }

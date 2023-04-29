@@ -15,8 +15,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Spécialisé dans la création d'applications et de sites web
-            performants et esthétiques. Explorez mon travail pour en savoir plus
+            Explorez mon travail pour en savoir plus
             sur ce que je peux faire pour vous.
           </p>
 
