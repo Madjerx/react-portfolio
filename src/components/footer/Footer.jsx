@@ -9,18 +9,15 @@ const Footer = () => {
 
         <ul className="footer__list">
           <li className="nav__item">
-            <a href="#about" className="footer__link">
-              <i className="uil uil-user nav__icon"></i> À propos
+            <a href="#about" className="footer__link">À propos
             </a>
           </li>
           <li className="nav__item">
-            <a href="#home" className="footer__link">
-              <i className="uil uil-file-alt nav__icon"></i> Skills
+            <a href="#home" className="footer__link">Skills
             </a>
           </li>
           <li className="nav__item">
-            <a href="#home" className="footer__link">
-              <i className="uil uil-briefcase-alt nav__icon"></i> Expériences
+            <a href="#home" className="footer__link">Expériences
             </a>
           </li>
         </ul>
