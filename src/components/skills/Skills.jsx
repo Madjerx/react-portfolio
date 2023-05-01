@@ -5,7 +5,7 @@ import Backend from "./Backend";
 
 const Skills = () => {
   return (
-    <section className="skill section" id="about">
+    <section className="skill section" id="skills">
       <h2 className="section__title">Skills</h2>
       <span className="section__subtitle">Mes technologies favorites</span>
 

@@ -47,7 +47,7 @@
 }
 
 .skills__level {
-  font-size: var(--tiny-font-size);
+  font-size: var(--smaller-font-size);
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -68,6 +68,10 @@
 
   .skills__content {
     padding: 1.5rem;
+  }
+
+  .skills__level {
+    font-size: var(--tiny-font-size);
   }
 }
 

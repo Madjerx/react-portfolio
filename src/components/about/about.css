@@ -36,7 +36,7 @@
 }
 
 .about__subtitle {
-  font-size: var(--tiny-font-size);
+  font-size: var(--smaller-font-size);
 }
 
 .about__description {
@@ -78,6 +78,9 @@
 @media screen and (max-width: 576px) {
   .about__info {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .about__subtitle {
+    font-size: var(--tiny-font-size);
   }
 
   .about__description {

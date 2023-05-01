@@ -8,7 +8,7 @@ const Experiences = () => {
     setToggleState(index);
   };
   return (
-    <section className="exp section" id="about">
+    <section className="exp section" id="exp">
       <h2 className="section__title">Expériences</h2>
       <span className="section__subtitle">Mon parcours</span>
 
