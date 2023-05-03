@@ -61,7 +61,7 @@ const Data = () => {
         et esthétiques.
       </p>
 
-      <a href="#contact" className="button button--flex">
+      <a href="https://www.linkedin.com/in/jeremy-aguila-9b219b99/" target="_blank" className="button button--flex">
         Contact
         <svg
           className="button__icon"
