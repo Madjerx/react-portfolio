@@ -1,9 +1,52 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import { projectsNav } from "./Data";
+import { projectsData } from "./Data";
+import WorksItems from "./WorksItems";
 
 const Works = () => {
-  return (
-    <div>Works</div>
-  )
-}
+  const [item, setItem] = useState({ name: "tout" });
+  const [projects, setProjects] = useState([]);
+  const [active, setActive] = useState(0);
 
-export default Works
+  useEffect(() => {
+    if (item.name === "tout") {
+      setProjects(projectsData);
+    } else {
+      const newProjects = projectsData.filter((project) => {
+        return project.category === item.name;
+      });
+      setProjects(newProjects);
+    }
+  }, [item]);
+
+  const handleClick = (e, index) => {
+    setItem({ name: e.target.textContent });
+  };
+  return (
+    <div>
+      <div className="work__filters">
+        {projectsNav.map((item, index) => {
+          return (
+            <span
+              onClick={(e) => {
+                handleClick(e, index);
+              }}
+              className="work__item"
+              key={index}
+            >
+              {item.name}
+            </span>
+          );
+        })}
+      </div>
+
+      <div className="work__container container grid">
+        {projects.map((item) => {
+          return <WorksItems item={item} key={item.id} />;
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default Works;

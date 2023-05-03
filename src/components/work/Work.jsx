@@ -4,7 +4,7 @@ import Works from './Works'
 
 const Work = () => {
   return (
-    <div className='work section' id='portfolio'>
+    <div className='work section' id='work'>
       <h2 className='section__title'>Portfolio</h2>
       <span className='section__subtitle'>Projets les plus récents</span>
 
