@@ -55,7 +55,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: Work4,
+    image: Portfolio,
     title: "Kliv Apparel",
     category: "cms",
     githubUrl: "",
@@ -64,7 +64,7 @@ export const projectsData = [
   },
   {
     id: 5,
-    image: Work4,
+    image: Portfolio,
     title: "Wodinn",
     category: "cms",
     githubUrl: "",

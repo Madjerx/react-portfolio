@@ -64,7 +64,7 @@
   margin-bottom: var(--mb-3);
 }
 .home__img {
-  background: url(../../assets/work4.jpg);
+  background: url(../../assets/photoJA.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -74,6 +74,10 @@
   width: 300px;
   height: 300px;
   animation: profile__animate 8s ease-in-out infinite 1s;
+  -webkit-filter: grayscale(
+    30%
+  ); /* Pour les navigateurs Chrome, Safari, Opera */
+  filter: grayscale(30%); /* Firefox */
 }
 
 @keyframes profile__animate {
@@ -160,7 +164,6 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-
   .home__section {
     margin-top: -3.5rem;
   }
@@ -185,7 +188,6 @@
     display: none;
   }
 }
-
 
 /* For small devices */
 @media screen and (max-width: 350px) {
