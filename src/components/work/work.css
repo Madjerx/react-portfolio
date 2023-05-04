@@ -67,8 +67,10 @@
   border-radius: 0.25rem;
   padding: 0.25rem;
   margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
   font-size: var(--smaller-font-size);
   text-transform: uppercase;
+  display: inline-block;
 }
 
 .work__tags {

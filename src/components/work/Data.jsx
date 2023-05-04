@@ -37,7 +37,7 @@ export const projectsData = [
   {
     id: 11,
     image: Portfolio,
-    title: "App Aélion - BackEnd",
+    title: "Aélion App - BackEnd",
     category: "app",
     githubUrl: "",
     demo: "",
@@ -46,7 +46,7 @@ export const projectsData = [
   {
     id: 12,
     image: Portfolio,
-    title: "App Aélion - FrontEnd",
+    title: "Aélion App - FrontEnd",
     category: "app",
     githubUrl: "",
     demo: "",
@@ -69,7 +69,7 @@ export const projectsData = [
     category: "cms",
     githubUrl: "",
     demo: "https://www.tycebrothers.com",
-    tags: ["WP", "JS", "Html", "Css"],
+    tags: ["WP", "JS", "Html", "Css", "E-commerce"],
   },
   {
     id: 3,
@@ -105,7 +105,7 @@ export const projectsData = [
     category: "cms",
     githubUrl: "",
     demo: "",
-    tags: ["WP", "JS", "Html", "Css", "E-commerce"],
+    tags: ["WP", "JS", "Html", "Css"],
   },
   {
     id: 9,
@@ -114,7 +114,7 @@ export const projectsData = [
     category: "cms",
     githubUrl: "",
     demo: "",
-    tags: ["WP", "JS", "Html", "Css", "E-commerce", "SEO"],
+    tags: ["WP", "JS", "Html", "Css", "SEO"],
   },
 ];
 
