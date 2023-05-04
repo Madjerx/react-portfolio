@@ -1,5 +1,5 @@
 .work__container {
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: repeat(3, max-content);
   gap: 3rem;
   justify-content: center;
 }
@@ -37,6 +37,7 @@
 .work__img {
   width: 300px;
   border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: var(--mb-1);
 }
 
@@ -48,7 +49,7 @@
 
 .work__button {
   color: var(--text-color);
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   display: flex;
   align-items: center;
 }
@@ -73,6 +74,18 @@
 .work__tags {
   margin-bottom: var(--mb-0-5);
 }
+
+.work__links {
+  display: flex;
+  align-items: center;
+}
+
+.work__links .uil-github{
+    font-size: 1.75rem;
+    margin-right: 1rem;
+
+}
+
 /* responsive */
 
 @media screen and (max-width: 992px) {
@@ -91,6 +104,14 @@
   .work__title {
     margin-bottom: 0.25rem;
   }
+}
+
+@media screen and (max-width: 1300px) {
+  .work__container {
+    grid-template-columns: repeat(2, max-content);
+  }
+
+  
 }
 
 @media screen and (max-width: 768px) {
