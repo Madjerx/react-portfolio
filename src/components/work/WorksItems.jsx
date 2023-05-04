@@ -12,7 +12,7 @@ const WorksItems = ({item}) => {
 
         <div className='work__tags'>
         {item.tags.map((tag) => {
-          return <ItemTag tag={tag}  />;
+          return <ItemTag tag={tag} key={`${item.id}-${item.tags.indexOf(tag)}`} />;
         })}
       </div>
         

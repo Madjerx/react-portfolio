@@ -5,41 +5,69 @@ import Work5 from "../../assets/work5.jpg";
 
 export const projectsData = [
   {
-    id: 1,
-    image: Work1,
-    title: "Web design",
-    category: "web",
-    github: "#",
-    website: "#",
-    tags: ["Front-End", "React", "JS", "Html", "Css", "Html", "Css"],
-  },
-  {
-    id: 2,
-    image: Work2,
-    title: "Web design",
-    category: "web",
-    github: "#",
-    website: "#",
-    tags: ["Wordpress", "JS", "PHP"],
-  },
-  {
-    id: 4,
-    image: Work4,
-    title: "Web design",
-    category: "cms",
-    github: "#",
-    website: "#",
-    tags: ["Wordpress", "JS", "PHP"],
-  },
-  {
-    id: 5,
+    id: 7,
     image: Work5,
     title: "Tri Couple",
     category: "app",
-    github: "#",
-    website: "#",
+    githubUrl: "#",
+    demo: "#",
     tags: ["Front-End", "Angular", "TS"],
   },
+  {
+    id: 1,
+    image: Work1,
+    title: "Wilbi App",
+    category: "cms",
+    githubUrl: "#",
+    demo: "#",
+    tags: ["WP", "JS", "Html", "Css"],
+  },
+  {
+    id: 2,
+    image: Work1,
+    title: "Tyce",
+    category: "cms",
+    githubUrl: "#",
+    demo: "#",
+    tags: ["WP", "JS", "Html", "Css"],
+  },
+  {
+    id: 3,
+    image: Work2,
+    title: "1000 fleurs",
+    category: "cms",
+    githubUrl: "#",
+    demo: "#",
+    tags: ["WP", "JS", "Html", "Css"],
+  },
+  {
+    id: 4,
+    image: Work2,
+    title: "Kliv Apparel",
+    category: "cms",
+    githubUrl: "#",
+    demo: "#",
+    tags: ["WP", "JS", "Html", "Css"],
+  },
+  {
+    id: 5,
+    image: Work2,
+    title: "Wodinn",
+    category: "cms",
+    githubUrl: "#",
+    demo: "#",
+    tags: ["WP", "JS", "Html", "Css", "E-commerce"],
+  },
+  {
+    id: 6,
+    image: Work4,
+    title: "Web design",
+    category: "cms",
+    githubUrl: "#",
+    demo: "#",
+    tags: ["Wordpress", "JS", "PHP"],
+  },
+  
 ];
 
 export const projectsNav = [
@@ -47,12 +75,9 @@ export const projectsNav = [
     name: "tout",
   },
   {
-    name: "web",
+    name: "app",
   },
   {
     name: "cms",
-  },
-  {
-    name: "app",
   },
 ];

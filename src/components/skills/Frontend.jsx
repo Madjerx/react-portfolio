@@ -29,7 +29,7 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h4 className="skills__name">Angular</h4>
+              <h4 className="skills__name">React</h4>
               <p className="skills__level">Intermédiaire</p>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h4 className="skills__name">React</h4>
+              <h4 className="skills__name">Angular</h4>
               <p className="skills__level">Intermédiaire</p>
             </div>
           </div>

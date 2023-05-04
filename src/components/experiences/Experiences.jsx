@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./experiences.css";
 
 const Experiences = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -136,7 +136,7 @@ const Experiences = () => {
                 </h3>
                 <span className="exp__subtitle">Freelance</span>
                 <div className="exp__calender">
-                  <i className="uil uil-calendar-alt"></i> 2019 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2020 - 2022
                 </div>
               </div>
             </div>

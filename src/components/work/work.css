@@ -18,7 +18,8 @@
   padding: 0.25rem 0.75rem;
   font-weight: var(--font-medium);
   border-radius: 0.5rem;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .work__item:hover,
 .active-work {
@@ -66,6 +67,7 @@
   padding: 0.25rem;
   margin-right: 0.25rem;
   font-size: var(--smaller-font-size);
+  text-transform: uppercase;
 }
 
 .work__tags {
