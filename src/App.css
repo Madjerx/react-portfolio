@@ -168,9 +168,6 @@ img {
   align-items: center;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
