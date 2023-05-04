@@ -1,4 +1,5 @@
 .scrollup {
+  cursor: pointer;
   position: fixed;
   right: 2.5rem;
   bottom: -20%;
