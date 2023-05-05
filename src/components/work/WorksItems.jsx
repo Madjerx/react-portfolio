@@ -17,14 +17,14 @@ const WorksItems = ({ item }) => {
 
       <div className="work__links">
         {item.githubUrl && (
-          <a href={item.githubUrl} target="_blank">
+          <a href={item.githubUrl} target="_blank" rel="noreferrer nofollow">
             <i className="uil uil-github"></i>
           </a>
         )}
         {/* {item.githubUrl && item.demo && <p className="work__button"> | </p>} */}
         {item.demo && (
-          <a href={item.demo} className="work__button" target="_blank">
-            Live <i className="bx bx-right-arrow-alt work__button-icon"></i>
+          <a href={item.demo} className="work__button" target="_blank" rel="noreferrer nofollow">
+            Aperçu <i className="bx bx-right-arrow-alt work__button-icon"></i>
           </a>
         )}
       </div>

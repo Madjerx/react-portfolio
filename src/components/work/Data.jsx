@@ -3,6 +3,11 @@ import Tricouple from "../../assets/tricouple.jpg";
 import MilleFleurs from "../../assets/1000fleurs.jpg";
 import Tyce from "../../assets/tyce.jpg";
 import Portfolio from "../../assets/portfolio.jpg";
+import Fft from "../../assets/fft.jpg";
+import ApparenceWeb from "../../assets/apparence-web.jpg";
+import Kliv from "../../assets/kliv.jpg";
+import Wodinn from "../../assets/wodinn.webp";
+import Github from "../../assets/github.jpeg";
 
 export const projectsData = [
   {
@@ -25,7 +30,7 @@ export const projectsData = [
   },
   {
     id: 10,
-    image: Portfolio,
+    image: Github,
     title: "Paris Sportif - BackEnd",
     category: "app",
     githubUrl: "",
@@ -34,7 +39,7 @@ export const projectsData = [
   },
   {
     id: 11,
-    image: Portfolio,
+    image: Github,
     title: "Aélion App - BackEnd",
     category: "app",
     githubUrl: "",
@@ -43,7 +48,7 @@ export const projectsData = [
   },
   {
     id: 12,
-    image: Portfolio,
+    image: Github,
     title: "Aélion App - FrontEnd",
     category: "app",
     githubUrl: "",
@@ -79,8 +84,17 @@ export const projectsData = [
     tags: ["WP", "JS", "Html", "Css"],
   },
   {
+    id: 9,
+    image: Fft,
+    title: "FrenchFundedTrader",
+    category: "cms",
+    githubUrl: "",
+    demo: "https://www.frenchfundedtrader.fr/",
+    tags: ["WP", "JS", "Html", "Css", "SEO"],
+  },
+  {
     id: 4,
-    image: Portfolio,
+    image: Kliv,
     title: "Kliv Apparel",
     category: "cms",
     githubUrl: "",
@@ -89,7 +103,7 @@ export const projectsData = [
   },
   {
     id: 5,
-    image: Portfolio,
+    image: Wodinn,
     title: "Wodinn",
     category: "cms",
     githubUrl: "",
@@ -98,21 +112,12 @@ export const projectsData = [
   },
   {
     id: 8,
-    image: Portfolio,
+    image: ApparenceWeb,
     title: "Apparence-Web",
     category: "cms",
     githubUrl: "",
     demo: "",
     tags: ["WP", "JS", "Html", "Css"],
-  },
-  {
-    id: 9,
-    image: Portfolio,
-    title: "FrenchFundedTrader",
-    category: "cms",
-    githubUrl: "",
-    demo: "https://www.frenchfundedtrader.fr/",
-    tags: ["WP", "JS", "Html", "Css", "SEO"],
   },
 ];
 
