@@ -3,8 +3,6 @@ import Tricouple from "../../assets/tricouple.jpg";
 import MilleFleurs from "../../assets/1000fleurs.jpg";
 import Tyce from "../../assets/tyce.jpg";
 import Portfolio from "../../assets/portfolio.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
 
 export const projectsData = [
   {
@@ -113,7 +111,7 @@ export const projectsData = [
     title: "FrenchFundedTrader",
     category: "cms",
     githubUrl: "",
-    demo: "",
+    demo: "https://www.frenchfundedtrader.fr/",
     tags: ["WP", "JS", "Html", "Css", "SEO"],
   },
 ];
