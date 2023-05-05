@@ -19,8 +19,8 @@ const About = () => {
             sur ce que je peux faire pour vous.
           </p>
 
-          <a href={CV} download="" className="button button--flex">
-            Télécharger CV
+          <a href="#work" className="button button--flex">
+            Mes Projets
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
