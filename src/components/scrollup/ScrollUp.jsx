@@ -10,7 +10,7 @@ const ScrollUp = () => {
   });
 
   return (
-    <span  className="scrollup" onClick={event =>  window.location.href='/#home'}>
+    <span  className="scrollup" onClick={event =>  window.location.href='#home'}>
       <i className="uil uil-arrow-up scrollup__icon"></i>
     </span>
   );
