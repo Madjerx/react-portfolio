@@ -73,7 +73,7 @@
   justify-self: center;
   width: 300px;
   height: 300px;
-  animation: profile__animate 6s ease-in-out infinite 0s;
+  animation: profile__animate 8s ease-in-out infinite 1s;
   -webkit-filter: grayscale(
     30%
   ); /* Pour les navigateurs Chrome, Safari, Opera */
