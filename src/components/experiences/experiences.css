@@ -11,7 +11,7 @@
 .exp__button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  color: var(--title-color);
+  color: rgba(0, 0, 0, .5);
   margin: 0 1rem;
   cursor: pointer;
 }
@@ -26,6 +26,7 @@
 
 .exp__active {
   color: var(--title-color-dark);
+  text-decoration: underline;
 }
 
 .exp__sections {
