@@ -84,10 +84,22 @@
 
 .work__links .uil-github{
     font-size: 1.75rem;
-    margin-right: 1rem;
 
 }
 
+.github__workLink {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.github__workLink .work__button-icon {
+  color: var(--text-color);
+}
+
+.github__workLink:hover .work__button-icon {
+  transform: translateX(0.25rem);
+}
 /* responsive */
 
 @media screen and (max-width: 992px) {

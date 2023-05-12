@@ -17,8 +17,8 @@ const WorksItems = ({ item }) => {
 
       <div className="work__links">
         {item.githubUrl && (
-          <a href={item.githubUrl} target="_blank" rel="noreferrer nofollow">
-            <i className="uil uil-github"></i>
+          <a href={item.githubUrl} target="_blank" rel="noreferrer nofollow" className="github__workLink">
+            <i className="uil uil-github"></i> <i className="bx bx-right-arrow-alt work__button-icon"></i>
           </a>
         )}
         {/* {item.githubUrl && item.demo && <p className="work__button"> | </p>} */}
