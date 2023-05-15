@@ -8,8 +8,18 @@ import ApparenceWeb from "../../assets/apparence-web.jpg";
 import Kliv from "../../assets/kliv.jpg";
 import Wodinn from "../../assets/wodinn.webp";
 import Github from "../../assets/github.jpeg";
+import Ecommerce from "../../assets/ecommerce.png";
 
 export const projectsData = [
+  {
+    id: 13,
+    image: Ecommerce,
+    title: "E-commerce (En cours...)",
+    category: "app",
+    githubUrl: "https://github.com/Madjerx/react-ecommerce",
+    demo: "https://madjerx.github.io/react-ecommerce/",
+    tags: ["FrontEnd", "React", "JS", "Html", "CSS"],
+  },
   {
     id: 6,
     image: Portfolio,
