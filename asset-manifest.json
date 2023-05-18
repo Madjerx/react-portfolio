@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7a32279f.css",
+    "main.js": "/portfolio/static/js/main.a5814a4f.js",
+    "static/js/787.a2cb61a6.chunk.js": "/portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.e521b083f36c9be8c84b.png",
+    "static/media/tyce.jpg": "/portfolio/static/media/tyce.8ec2f8b18e5c3d66448f.jpg",
+    "static/media/wodinn.webp": "/portfolio/static/media/wodinn.7d1efccb51570c78fec3.webp",
+    "static/media/kliv.jpg": "/portfolio/static/media/kliv.7c6aa087419de2b18e3f.jpg",
+    "static/media/apparence-web.jpg": "/portfolio/static/media/apparence-web.a0fa61b0f93e63556c1e.jpg",
+    "static/media/wilbi.jpg": "/portfolio/static/media/wilbi.122a93a49329fc8e5979.jpg",
+    "static/media/photoJA.jpeg": "/portfolio/static/media/photoJA.3bde3d3f19aafe4df549.jpeg",
+    "static/media/1000fleurs.jpg": "/portfolio/static/media/1000fleurs.1ab77cc582fc0a203555.jpg",
+    "static/media/fft.jpg": "/portfolio/static/media/fft.2c759b823734113bba94.jpg",
+    "static/media/tricouple.jpg": "/portfolio/static/media/tricouple.6e8a6d2e2bc275cb14d8.jpg",
+    "static/media/github.jpeg": "/portfolio/static/media/github.5e35f2f8830e65f4d44b.jpeg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.9c0bae826999f5675fc8.jpg",
+    "static/media/work4.jpg": "/portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.7a32279f.css.map": "/portfolio/static/css/main.7a32279f.css.map",
+    "main.a5814a4f.js.map": "/portfolio/static/js/main.a5814a4f.js.map",
+    "787.a2cb61a6.chunk.js.map": "/portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a32279f.css",
+    "static/js/main.a5814a4f.js"
+  ]
+}
